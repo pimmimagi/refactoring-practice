@@ -11,6 +11,8 @@ Each subdirectory contains some code that needs refactoring.
 ## `time/timestamp.py`
 
 Refactor timestamp.py.  2 or 3 refactorings are possible.
+1. Extract method the make the code easier to read.
+2. rename the class name to python name convention.
 
 
 ## `game_framework/gamelib.py`
@@ -35,6 +37,8 @@ The Recipe class defines a recipe for a hot beverage with attributes:
 * price - (float) price in Baht
 
 Refactor `main.py`.  What can you do to eliminate the long, boring code?
+1. instead of putting element one by one I've put it all at once.
+2. remove attribute assigning and create a new instance to use instead.
 
 
 
