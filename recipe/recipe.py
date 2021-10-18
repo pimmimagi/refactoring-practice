@@ -14,10 +14,4 @@ class Recipe:
     sugar: int
     price: float
 
-    def __init__(self, name):
-        self.name = name
-        self.coffee = 0
-        self.chocolate = 0
-        self.milk = 0
-        self.sugar = 0
-        self.price = 0.0
+
